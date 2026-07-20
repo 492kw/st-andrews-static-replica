@@ -1,23 +1,7 @@
-# St Andrew's Townsville faithful static replacement
+# St Andrew's Townsville A demo
 
-A concept demo, not an official church website. Static HTML, CSS and JavaScript only.
+Non-official static concept. Run `python3 -m http.server 8000` at repository root. Do not open with `file://`, because modules, fetch and localStorage workflows require HTTP.
 
-## Run locally
+GitHub Pages: deploy `main` from `/`. Cloudflare Pages: no build command, output `/`. Office PC: `python3 -m http.server 8000 --bind 0.0.0.0`.
 
-Clone the repository then run `python3 -m http.server 8000` from the repository root. Open `http://localhost:8000/`. Do not use `file://`: browser storage, imports and relative route testing can behave differently.
-
-## GitHub Pages
-
-Deploy from `main` and `/` in GitHub Pages settings.
-
-## Cloudflare Pages
-
-Connect the repository or direct-upload this folder. Build command: none. Build output directory: `/`.
-
-## Office PC
-
-Run `python3 -m http.server 8000 --bind 0.0.0.0` from the repo root.
-
-## Content backup and restore
-
-Content is maintained directly in the HTML pages for this preservation-focused static demo.
+Static content is retained as portable HTML files.

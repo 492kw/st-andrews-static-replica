@@ -1,29 +1,19 @@
-# Public-source baseline audit
+# Corrected public-source audit
 
-Inspected 20 July 2026, public pages only:
+Inspected public home at desktop 1440x900 and mobile 390x844 on 20 July 2026.
 
+## Source URLs
 - https://www.standrewstownsville.org.au/
-- https://www.standrewstownsville.org.au/visiting-st-andrews/
-- https://www.standrewstownsville.org.au/about-st-andrews/
-- https://www.standrewstownsville.org.au/kids-youth/
-- https://www.standrewstownsville.org.au/sunday-services/
 - https://www.standrewstownsville.org.au/sermon-library/
-- https://www.standrewstownsville.org.au/connect-with-us/
-- https://www.standrewstownsville.org.au/ministry-team/
-- https://www.standrewstownsville.org.au/notices-blog/
+- https://www.standrewstownsville.org.au/visiting-st-andrews/
+- https://www.standrewstownsville.org.au/getting-here/
+- https://www.standrewstownsville.org.au/events-upcoming/
 
-## Information architecture observed
+## Actual visible treatment
+The desktop source has a navy utility strip with public phone, Sunday times and address; a white, uppercase sans-serif navigation row; gold active-state and call-to-action treatment; a full-width photographic church-service hero with navy overlay and white text; and slanted or angular boundaries between white, navy and pale cream sections. Mobile keeps the navy utility information, a compact hamburger button and the photographic hero with angular lower edge.
 
-Home; I’m New and Visit; About with Sunday Services, Ministry Team, Kids and Youth, and Getting Here; I’m a regular with Sermons, Bible Study Groups, Notices, Meals on Wheels, Our History, Giving and an external Elvanto medical form; Meet Jesus; Christianity Explored; Have Questions; Connect with Us; Events.
+Top-level navigation: Home; I’m New with Visit, About, Sunday Services, Ministry Team, Kids & Youth and Getting Here; I’m a Regular with Sermons, Bible Study Groups and Notices; Meet Jesus; Connect With Us; Events.
 
-## Public content and integration pattern
+The public favicon/cross source asset is `https://i0.wp.com/www.standrewstownsville.org.au/wp-content/uploads/2024/05/Cross-web.webp`. Source home hero media is `https://i0.wp.com/www.standrewstownsville.org.au/wp-content/uploads/2025/06/6.webp`.
 
-The home page presents Sunday service times of 9:00am and 10:30am, a welcome, the mission of learning to follow Jesus, family information and questions. Sermons use Series Engine and point listeners to the public sermon library and the public YouTube stream channel. The public navigation includes an external Elvanto form. Contact information publicly shown includes 119 Wills Street, Townsville, 07 4724 0655 and the public office address details.
-
-## Visible design tokens observed
-
-WordPress page with a compact upper utility strip, white logo/navigation header, dark charcoal body text, teal-blue brand treatment, pale blue-green page fields, orange call-to-action accents, wide image-led content blocks and a serif display treatment in prominent source headings.
-
-## Static demo decisions
-
-The preservation demo retains the public hierarchy, service information, ministry content, sermon and public livestream pathway, location and a sandboxed contact state. It makes no submissions, uses no WordPress runtime, embeds no private integration and retains externally verified public destinations only.
+The source sermon page currently shows four The Lord’s Prayer talks dated 28 June, 5 July, 12 July and 19 July 2026 with Series Engine IDs 2, 3, 5 and 6.
